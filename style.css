@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style ehlel */
+
+.style_container {
+  width: 1100px;
+  margin: auto;
+}
+.style {
+  height: 404.33px;
+  margin-top: 60px;
+}
+.style_title {
+  font-size: 26px;
+  gap: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.style_span {
+  color: #fff;
+  font-size: 18px;
+  padding: 2px 3px;
+  background-color: #00b0f4;
+  border-radius: 3px;
+}
+.style_small_container {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.style_card {
+  width: 262.25px;
+  height: 360px;
+}
+.container_st1 {
+  background: url("/images/style_img1.jpeg");
+}
+.container_st2 {
+  background: url("/images/style_img2.jpeg");
+}
+.container_st3 {
+  background: url("/images/style_img3.jpeg");
+}
+.container_st4 {
+  background: url("/images/style_img4.jpeg");
+}
+.style_img {
+  width: 262.25px;
+  height: 230px;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  transition: background-size 0.3s ease-in-out;
+}
+.style_img:hover {
+  background-size: 160%;
+  transition: background-size 0.3s ease-in-out;
+}
+.style_img div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.383);
+  color: white;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.style_img div:hover {
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.same_text {
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.same_text1 {
+  font-size: 16px;
+  min-height: 72px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.same_p {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 5px;
+  margin-top: 10px;
+  color: #888;
+}
+.same_p1 {
+  margin-right: 30px;
+}

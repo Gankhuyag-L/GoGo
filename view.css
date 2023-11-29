@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.view_big_container {
+  width: 1100px;
+  margin: auto;
+}
+.view {
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.view_title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.view_title img {
+  width: 20px;
+  height: 25px;
+}
+.view_container {
+  display: flex;
+}
+.view_big_card {
+  width: 50%;
+  height: 400px;
+  border-radius: 5px;
+  background-image: url("/images/view_img1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  transition: 0.3s ease-in-out;
+}
+.view_big_card:hover {
+  background-size: 120%;
+  transition: 0.3s ease-in-out;
+}
+.view_big_t {
+  position: relative;
+  top: 238px;
+  color: white;
+  padding: 30px;
+}
+.view_b {
+  background-color: #407ce8;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.view_b1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view_b2 {
+  color: #fff;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.15);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.view_small_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 400px;
+}
+.container_v1 {
+  background-image: url("/images/view_img2.jpeg");
+}
+.container_v2 {
+  background-image: url("/images/view_img3.jpeg");
+}
+.container_v3 {
+  background-image: url("/images/view_img5.jpg");
+}
+.container_v4 {
+  background-image: url("/images/view_img4.jpeg");
+}
+.view_small_card {
+  width: 260px;
+  height: 192.5px;
+  margin-left: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.view_small_card:hover {
+  background-size: 130%;
+  transition: 0.3s ease-in-out;
+}
+.view_small_t {
+  position: relative;
+  top: 77px;
+  padding: 20px 20px 25px;
+}
+.view_s {
+  background-color: #407ce8;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.view_s1 {
+  color: white;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* video_card ehlel */
+
+.watch_container {
+  width: 100%;
+  height: 800px;
+  margin-top: 60px;
+  background-color: #000;
+  padding: 50px 0px 0px;
+}
+
+.watch_cards_container {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.video_title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.video_title img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.video_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.video_card {
+  width: 262.25px;
+  height: 312px;
+}
+.video_img img {
+  position: absolute;
+}
+
+.container_w1 {
+  background: url("/images/watch.1.jpeg");
+}
+
+.container_w2 {
+  background: url("/images/watch.2.jpeg");
+}
+
+.container_w3 {
+  background: url("/images/watch.3.jpeg");
+}
+
+.container_w4 {
+  background: url("/images/watch.4.jpeg");
+}
+
+.container_w5 {
+  background: url("/images/watch.5.jpeg");
+}
+
+.container_w6 {
+  background: url("/images/watch.6.jpeg");
+}
+
+.container_w7 {
+  background: url("/images/watch.7.jpeg");
+}
+
+.container_w8 {
+  background: url("/images/watch.8.jpeg");
+}
+
+.video_img {
+  width: 262.25px;
+  height: 170px;
+  background-size: 110%;
+  background-position: center;
+  transition: 0.3s ease-in-out;
+}
+
+.video_img:hover {
+  background-size: 120%;
+  transition: 0.3s ease-in-out;
+}
+.video_img div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.383);
+  color: #fff;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.video_img div:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.video_text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+}
+.video_text1 {
+  margin-top: 10px;
+  min-height: 55px;
+}
+.video_p {
+  display: flex;
+  margin: 0px 0px 10px;
+  color: #c6c6c6;
+  gap: 10px;
+  font-size: 12px;
+}
+.video_p1 i {
+  color: #c6c6c6;
+}
+.video_p2 i {
+  color: #c6c6c6;
+}
+/* video_card end */
